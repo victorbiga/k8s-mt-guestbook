@@ -1,6 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
+  namespace: guestbook   
   name: redis-pod
   labels:
     name: redis-pod
